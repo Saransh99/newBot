@@ -1,0 +1,7 @@
+node_modules/*
+discordBot.bat
+keys.json
+secretFiles.json
+xp.json
+coins.json
+package-lock.json

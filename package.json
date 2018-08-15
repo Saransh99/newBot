@@ -1,0 +1,32 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "battlegrounds": "^1.5.2",
+    "csgo": "^1.5.7",
+    "discord.js": "^11.3.2",
+    "dota2": "^6.1.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "fortnite": "^4.1.1",
+    "mongoose": "^5.2.6",
+    "ms": "^2.1.1",
+    "node-datetime": "^2.0.7",
+    "opusscript": "0.0.6",
+    "overwatch-api": "^0.6.2",
+    "rainbowsix-api-node": "0.0.1",
+    "readline-sync": "^1.4.9",
+    "rls-api": "^1.1.0",
+    "steam": "^1.4.0",
+    "steam-totp": "^2.1.0",
+    "steam-user": "^3.28.1",
+    "superagent": "^3.8.3",
+    "ytdl-core": "^0.24.0"
+  }
+}
