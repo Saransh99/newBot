@@ -10,11 +10,13 @@ module.exports.run = async(bot,message,args)=>{
      let serverEmbed = new Discord.RichEmbed()
      .setDescription("Server Info:-")
      .setColor("#15f153")
-     .setThumbnail(serverIcon)
+     .setThumbnail(message.guild.splashURL)
      .addField("Server Name: ",message.guild.name)
+     .addField("Owner",message.guild.owner)
      .addField("Server Created On",message.guild.createdAt)
      .addField("You joined",message.member.joinedAt)
-     .addField("Total members",message.guild.memeberCount);
+     .addField("Region",message.guild.region)
+     .addField("Total members",message.guild.memberCount);
 
      message.channel.send(serverEmbed);
 }

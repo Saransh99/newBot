@@ -5,7 +5,7 @@ module.exports.run = async(bot,message,args)=>{
    if(message.guild.voiceConnection){
        message.guild.voiceConnection.disconnect()
        .then(connection=>{
-        message.reply("bot left the voice channel");
+        console.log;
        }).catch(console.log('something bad happened'));
        
    }else{

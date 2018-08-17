@@ -1,5 +1,4 @@
-// invite link ///   https://discord.gg/jvd5K6n
-// client id 473790451972046869
+// invite link ///   https://discord.gg/jvd5K6
 const botConfig = require("./botConfig.json");
 const secretFiles = require("./secretFiles.json");
 const Discord = require("discord.js");
